@@ -1,4 +1,10 @@
-# 42_ft_printf
+
+<div align=center>
+<img src=https://github.com/Xanaco/42_00_Ressources/blob/main/ft_printfe.png alt=cado-car's 42Project Badge/>
+<h2>Final score</h2>
+<img src=https://github.com/Xanaco/42_00_Ressources/blob/main/100Grade.png alt=Xanaco's 42Project Score/>
+<h4>Completed</h4>
+</div>
 
 ## Overview
 
@@ -10,17 +16,17 @@ While students are not required to replicate every feature of the standard `prin
 
 1. **Variadic Functions**: Using variadic functions to handle an undefined number of arguments, as seen in the original `printf` function.
 
-2. **Format Specifiers**: Implementing core format specifiers such as `%s` (string), `%d` or `%i` (integer), `%c` (character), and `%x` (hexadecimal), among others.
+2. **String Parsing**: Parsing the format string to detect and act upon format specifiers and flags.
 
-3. **Flags**: Handling various flags that modify output, like `-` (left-justify), `0` (zero-padding), and `.` (precision).
+3. **Format Specifiers**: Implementing core format specifiers `cspdiuxX%`.
 
 4. **Width and Precision**: Managing field width and precision for formatted output, which can be defined as arguments or hardcoded.
 
-5. **String Parsing**: Parsing the format string to detect and act upon format specifiers and flags.
+5. **Buffer Management**: Efficiently managing a buffer to store and print the final formatted output.
 
-6. **Buffer Management**: Efficiently managing a buffer to store and print the final formatted output.
+6. **Error Handling**: Implementing error checks for invalid format strings, flags, or combinations thereof.
 
-7. **Error Handling**: Implementing error checks for invalid format strings, flags, or combinations thereof.
+7. **Flags (Bonus)**: Handling various flags that modify output, like `-` (left-justify), `0` (zero-padding), and `.` (precision).
 
 ## Key Skills Developed
 
